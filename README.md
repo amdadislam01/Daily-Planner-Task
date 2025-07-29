@@ -30,4 +30,14 @@ A simple and responsive **Daily Planner Task App** built with **HTML**, **CSS**,
 <img src="https://ik.imagekit.io/yqnbhdlo4/Img/screencapture-amdadislam01-github-io-Daily-Planner-Task-2025-07-29-16_04_28.png?updatedAt=1753783510066" alt="Daily Planner Screenshot" width="1000"/>
 
 
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amdadislam01/Daily-Planner-Task.git
+
+
+
 
