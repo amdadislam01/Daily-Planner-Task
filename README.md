@@ -27,11 +27,7 @@ A simple and responsive **Daily Planner Task App** built with **HTML**, **CSS**,
 
 ## 📸 Screenshot
 
-<img src="https://i.postimg.cc/7ZC5BnMb/daily-planner-screenshot.png" alt="Daily Planner Screenshot" width="1000"/>
+<img src="https://ik.imagekit.io/yqnbhdlo4/Img/screencapture-amdadislam01-github-io-Daily-Planner-Task-2025-07-29-16_04_28.png?updatedAt=1753783510066" alt="Daily Planner Screenshot" width="1000"/>
 
-> *Replace with your own screenshot if design changes.*
 
----
-
-## 📁 Folder Structure
 
