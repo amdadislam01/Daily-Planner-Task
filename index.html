@@ -19,6 +19,42 @@
                 <p id="current-date" class="text-xl text-white font-medium"></p>
             </div>
         </header>
+        <!-- Main Content -->
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Task Input Section -->
+            <section class="lg:col-span-1 glass rounded-xl p-6 fade-in">
+                <h2 class="text-2xl font-semibold text-white mb-4">Add New Task</h2>
+                <form id="task-form" class="space-y-4">
+                    <div>
+                        <label for="task-title" class="block text-white mb-1">Task Title</label>
+                        <input type="text" id="task-title"
+                            class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-80 focus:bg-opacity-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div>
+                        <label for="task-time" class="block text-white mb-1">Time</label>
+                        <input type="time" id="task-time"
+                            class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-80 focus:bg-opacity-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div>
+                        <label for="task-priority" class="block text-white mb-1">Priority</label>
+                        <select id="task-priority"
+                            class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-80 focus:bg-opacity-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-cyan-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center space-x-2 pulse">
+                        <i class="fas fa-plus"></i>
+                        <span>Add Task</span>
+                    </button>
+                </form>
+            </section>
+        </main>
     </div>
 </body>
 </html>
