@@ -54,6 +54,28 @@
                     </button>
                 </form>
             </section>
+
+             <!-- Tasks List Section -->
+            <section class="lg:col-span-2 glass rounded-xl p-6 fade-in" style="animation-delay: 0.2s;">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-2xl font-semibold text-white">Today's Tasks</h2>
+                    <div class="flex space-x-2">
+                        <button id="filter-all" class="bg-cyan-600 text-white px-3 py-1 rounded-lg text-sm">All</button>
+                        <button id="filter-active"
+                            class="bg-gray-600 text-white px-3 py-1 rounded-lg text-sm">Active</button>
+                        <button id="filter-completed"
+                            class="bg-green-600 text-white px-3 py-1 rounded-lg text-sm">Completed</button>
+                    </div>
+                </div>
+
+                <div id="tasks-container" class="space-y-3">
+                    <!-- Tasks will be added here dynamically -->
+                    <div class="text-center py-8 text-white opacity-70" id="empty-state">
+                        <i class="fas fa-tasks text-4xl mb-3"></i>
+                        <p>No tasks added yet. Add your first task!</p>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>
