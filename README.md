@@ -20,7 +20,7 @@ A simple and responsive **Daily Planner Task App** built with **HTML**, **CSS**,
 ## 🛠️ Technologies Used
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech Stack" width="120"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,github" alt="Tech Stack" width="320"/>
 </p>
 
 ---
