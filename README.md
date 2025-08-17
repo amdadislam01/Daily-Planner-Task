@@ -1,4 +1,4 @@
-# 📅 Daily Planner Task App
+# 📅 Daily Planner Task Ap
 
 A simple and responsive **Daily Planner Task App** built with **HTML**, **CSS**, and **JavaScript**. This app helps users manage their daily tasks efficiently with a clean interface and intuitive UX.
 
